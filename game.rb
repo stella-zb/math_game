@@ -16,10 +16,10 @@ class Game
     # check if sum is correct, output the message and lives
     @answer == num1 + num2 ? result = true : result = false
     if result == true
-      puts "#{player.name}: Yes! You are correct.".green
+      puts "#{player.name}: Yes! You are correct. (👍≖‿‿≖)👍 👍(≖‿‿≖👍)".green
       player.lives
     else
-      puts "#{player.name}: Seriously? No!".red
+      puts "#{player.name}: Seriously? No! ( ；￣ Д ￣ )".red
       player.lose
     end
   end
